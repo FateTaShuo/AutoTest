@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitename">
+    <test name="runall">
+        <classes>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass1"/>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass2"/>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass3"/>
+
+        </classes>
+
+    </test>
+    <test name="onlystudent">
+        //通过在class头部添加test标签，并赋予groups标签名称，来运行指定的类
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass1"/>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass2"/>
+            <class name="com.aowang.AutoApiTest.testng.groups.groupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameters">
+    <test name="paramete">
+        <classes>
+            <parameter name="name" value="zhangjinhui"/>
+            <parameter name="age" value="18"/>
+            <class name="com.aowang.AutoApiTest.testng.parame.parameTest"/>
+        </classes>
+    </test>
+</suite>
