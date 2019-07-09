@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apitest" />
+        <module name="Chapter5" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apitest" target="1.7" />
+      <module name="Chapter5" target="1.5" />
+      <module name="springboot" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

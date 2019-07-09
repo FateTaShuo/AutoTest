@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest.iml" filepath="$PROJECT_DIR$/.idea/AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter5/Chapter5.iml" filepath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
       <module fileurl="file://$PROJECT_DIR$/apitest/apitest.iml" filepath="$PROJECT_DIR$/apitest/apitest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
     </modules>
   </component>
 </project>
