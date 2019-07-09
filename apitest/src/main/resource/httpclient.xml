@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="httpc">
+    <test name="httpctest">
+        <classes>
+            <class name="httpclient.testDemoClient"></class>
+            <!--<methods>-->
+                <!--<include name="test1"></include>-->
+                <!--<include name="test2"></include>-->
+                <!--<include name="test3"></include>-->
+                <!--<include name="logDemo"></include>-->
+            <!--</methods>-->
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="baogao.ExtentTestNGIReporterListenerOld"></listener>-->
+        <listener class-name="httpclient.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

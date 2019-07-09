@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="report">
+    <test name="reportTest">
+        <classes>
+            <class name="baogao.TestMethodsDemo"></class>
+            <methods>
+                <include name="test1"></include>
+                <include name="test2"></include>
+                <include name="test3"></include>
+                <include name="logDemo"></include>
+            </methods>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="baogao.ExtentTestNGIReporterListenerOld"></listener>-->
+        <listener class-name="baogao.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
